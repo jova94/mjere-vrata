@@ -1,0 +1,15 @@
+{
+  "short_name": "Врата Милош",
+  "name": "Врата Милош Махагони",
+  "lang": "sr",
+  "icons": [
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#F2F4F8",
+  "background_color": "#F2F4F8"
+}

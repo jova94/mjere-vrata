@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Врата Милош Махагони",
+    "slug": "vrata-milos-mahagoni",
+    "scheme": "mjerevrata",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mahagoni.mjerevrata",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.mahagoni.mjerevrata",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "name": "Врата Милош Махагони",
+      "shortName": "Врата Милош",
+      "lang": "sr",
+      "themeColor": "#F2F4F8",
+      "backgroundColor": "#F2F4F8",
+      "display": "standalone",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sharing",
+      "expo-sqlite",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "2f6ecc9b-d5a5-4e31-9953-ff780eabfa29"
+      }
+    },
+    "owner": "djole994"
+  }
+}

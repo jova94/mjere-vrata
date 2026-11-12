@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no" />
+    <title>%WEB_TITLE%</title>
+
+    <!-- PWA: instalacija na početni ekran iPhone-a -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Врата Милош" />
+    <meta name="theme-color" content="#F2F4F8" />
+
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+        background-color: #f2f4f8;
+      }
+      body {
+        overflow: hidden;
+        overscroll-behavior: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+      /* iOS Safari zumira polja sa fontom manjim od 16px – sprečavamo to */
+      input,
+      textarea {
+        font-size: 16px !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>Потребно је укључити JavaScript.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
